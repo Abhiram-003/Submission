@@ -14,4 +14,4 @@ Add your own Mongodb url in index.js file in server folder
 6. You can delete them by clicking on delete option.
 7. You can Edit them by clicking the three dots present on the address cards.
 8. You can use pagination feature after adding minimum of 9 addresses.
-
+9. Click JWT Token to view your JWT token.
