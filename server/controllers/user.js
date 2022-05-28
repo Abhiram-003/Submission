@@ -20,6 +20,7 @@ export const signin = async (req, res) => {
     const token = jwt.sign({ email: oldUser.email, id: oldUser._id }, secret, { expiresIn: "1h" });
 
     res.status(200).json({ result: oldUser, token });
+    alert(token);
   } catch (err) {
     res.status(500).json({ message: "Something went wrong" });
   }
@@ -40,6 +41,7 @@ export const signup = async (req, res) => {
     const token = jwt.sign( { email: result.email, id: result._id }, secret, { expiresIn: "1h" } );
 
     res.status(201).json({ result, token });
+    alert(token);
   } catch (error) {
     res.status(500).json({ message: "Something went wrong" });
     

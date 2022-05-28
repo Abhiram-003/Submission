@@ -7,6 +7,9 @@ export default makeStyles((theme) => ({
     display: 'flex',
     padding: '16px',
   },
+  searchButton:{
+    marginTop: '1rem',
+  },
   pagination: {
     borderRadius: 4,
     marginTop: '1rem',
@@ -17,4 +20,7 @@ export default makeStyles((theme) => ({
       flexDirection: 'column-reverse',
     },
   },
+  jwt: {
+    marginTop: '1rem',
+  }
 }));
