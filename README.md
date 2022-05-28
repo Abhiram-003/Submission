@@ -1,15 +1,17 @@
-# Memories
-
-![Memories](https://i.ibb.co/Z8Y0CJv/Screenshot-2020-10-30-at-11-10-04.png)
-
-## Introduction
-This is a code repository for the corresponding video tutorial - https://youtube.com/playlist?list=PL6QREj8te1P7VSwhrMf3D3Xt4V6_SRkhu.
-
-Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called "Memories" and it is a simple social media app that allows users to post interesting events that happened in their lives.
-
-By the end of this video, you will have a strong understanding of how the MERN Stack works.
-
+# Address Book
 Setup:
+
+Add your own Mongodb url in index.js file in server folder
+,Add your own client ID in /client/src/components/Auth/Auth.js file
+
 - run ```npm i && npm start``` for both client and server side to start the app
 
-TODO: rename post message, refactor reducers, add some cool memories, maybe clickable tags, fix update functionality"# social-media-app" 
+1. Click on Login.
+2. Click on Sign up, if you don't have an account.
+3. Click on Login, if you already have an account.
+4. Login after finishing Step 2/3.
+5. You can add addresses.
+6. You can delete them by clicking on delete option.
+7. You can Edit them by clicking the three dots present on the address cards.
+8. You can use pagination feature after adding minimum of 9 addresses.
+9. Click JWT Token to view your JWT token.
