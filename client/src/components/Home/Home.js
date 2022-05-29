@@ -41,9 +41,11 @@ const Home = () => {
 
   const getjwt = (e) => {
     const user = JSON.parse(localStorage.getItem('profile'));
-
-    alert(user.token);
-
+    if (!user?.result?.name){
+      alert('please Sign in');
+    }else{
+      alert(user.token);
+    }
   };
 
   return (
